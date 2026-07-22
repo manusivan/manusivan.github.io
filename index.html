@@ -1,25 +1,279 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Manu Sivan | Film Public Relations Officer</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
 <style>
-body{margin:0;background:#0b0b0b;color:#fff;font-family:Arial,sans-serif}
-header{text-align:center;padding:80px 20px;background:#111}
-img{width:180px;height:180px;border-radius:50%;object-fit:cover;border:4px solid gold}
-h1{color:gold}section{max-width:900px;margin:auto;padding:30px 20px}
-.card{background:#181818;border:1px solid #333;border-radius:12px;padding:20px;margin:20px 0}
-a.btn{display:inline-block;background:gold;color:#000;padding:12px 20px;text-decoration:none;border-radius:8px}
-footer{text-align:center;padding:20px;background:#111;color:#aaa}
-</style></head><body>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#090909;
+color:#fff;
+}
+
+header{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+padding:20px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:rgba(0,0,0,.85);
+backdrop-filter:blur(8px);
+z-index:1000;
+}
+
+.logo{
+font-size:30px;
+font-weight:700;
+color:#d4af37;
+}
+
+nav a{
+text-decoration:none;
+color:#fff;
+margin-left:25px;
+transition:.3s;
+}
+
+nav a:hover{
+color:#d4af37;
+}
+
+.hero{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.8)),
+url('https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1500&q=80');
+background-size:cover;
+background-position:center;
+}
+
+.hero-content h1{
+font-size:60px;
+color:#d4af37;
+}
+
+.hero-content h2{
+font-size:28px;
+margin-top:10px;
+}
+
+.hero-content p{
+margin-top:20px;
+font-size:18px;
+color:#ddd;
+max-width:700px;
+}
+
+.btns{
+margin-top:40px;
+}
+
+.btn{
+display:inline-block;
+padding:14px 30px;
+margin:10px;
+background:#d4af37;
+color:#000;
+text-decoration:none;
+font-weight:bold;
+border-radius:40px;
+transition:.4s;
+}
+
+.btn:hover{
+background:white;
+transform:translateY(-4px);
+}
+
+section{
+padding:100px 8%;
+}
+
+.title{
+text-align:center;
+font-size:40px;
+color:#d4af37;
+margin-bottom:50px;
+}
+
+</style>
+</head>
+
+<body>
+
 <header>
-<img src="profile.jpeg" alt="Manu Sivan">
-<h1>MANU SIVAN</h1>
-<p>Film Public Relations Officer</p>
-<a class="btn" href="mailto:manusivanpro@gmail.com">Contact Me</a>
+
+<div class="logo">
+MANU SIVAN
+</div>
+
+<nav>
+
+<a href="#">Home</a>
+
+<a href="#about">About</a>
+
+<a href="#services">Services</a>
+
+<a href="#projects">Projects</a>
+
+<a href="#contact">Contact</a>
+
+</nav>
+
 </header>
-<section>
-<div class="card"><h2>About Me</h2><p>I specialize in film publicity, media relations, digital promotions and branding.</p></div>
-<div class="card"><h2>Services</h2><ul><li>Film PR</li><li>Media Coordination</li><li>Digital Promotions</li><li>Event Promotions</li></ul></div>
-<div class="card"><h2>Contact</h2><p>Email: manusivanpro@gmail.com</p></div>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>MANU SIVAN</h1>
+
+<h2>Film Public Relations Officer</h2>
+
+<p>
+Building strong media relationships,
+creating impactful publicity campaigns
+and promoting films with professionalism.
+</p>
+
+<div class="btns">
+
+<a href="#" class="btn">IMDb</a>
+
+<a href="#" class="btn">LinkedIn</a>
+
+<a href="#" class="btn">Instagram</a>
+
+<a href="#" class="btn">WhatsApp</a>
+
+</div>
+
+</div>
+
 </section>
-<footer>© 2026 Manu Sivan. All Rights Reserved.</footer>
-</body></html>
+<section id="about">
+
+<h2 class="title">About Me</h2>
+
+<div class="card">
+
+<p style="text-align:center;font-size:18px;line-height:1.8;max-width:900px;margin:auto;">
+
+I'm <b>Manu Sivan</b>, a Film Public Relations Officer passionate about
+film publicity, media coordination, digital promotions, celebrity branding,
+press meets, interview coordination and theatre campaigns.
+
+</p>
+
+</div>
+
+</section>
+
+
+<section id="services">
+
+<h2 class="title">Services</h2>
+
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:25px;">
+
+<div class="card">
+<h3>Media Coordination</h3>
+<p>News portals, TV Channels & Print Media.</p>
+</div>
+
+<div class="card">
+<h3>Digital Promotions</h3>
+<p>Social Media Marketing & Online Campaigns.</p>
+</div>
+
+<div class="card">
+<h3>Interview Planning</h3>
+<p>Artist & Director Interview Coordination.</p>
+</div>
+
+<div class="card">
+<h3>Press Meet</h3>
+<p>Press Conferences & Promotional Events.</p>
+</div>
+
+</div>
+
+</section>
+
+
+<section id="projects">
+
+<h2 class="title">Projects</h2>
+
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:30px;">
+
+<div class="card">
+<h3>Film Publicity</h3>
+<p>Your Movie Poster Here</p>
+</div>
+
+<div class="card">
+<h3>Upcoming Projects</h3>
+<p>Coming Soon...</p>
+</div>
+
+<div class="card">
+<h3>Media Campaigns</h3>
+<p>Professional PR Campaigns.</p>
+</div>
+
+</div>
+
+</section>
+<section id="contact">
+
+<h2 class="title">Contact</h2>
+
+<div style="text-align:center;line-height:2;font-size:18px;">
+
+<p><b>Email:</b> manusivanpro@gmail.com</p>
+
+<p><b>Location:</b> Kochi, Kerala</p>
+
+<p><b>Available for Film Publicity, Media Coordination & Digital Promotions.</b></p>
+
+<a href="mailto:manusivanpro@gmail.com" class="btn">Email Me</a>
+
+</div>
+
+</section>
+
+<footer style="background:#111;padding:30px;text-align:center;color:#aaa;">
+
+<p>© 2026 Manu Sivan. All Rights Reserved.</p>
+
+<p style="margin-top:10px;">
+Film Public Relations Officer | Kerala
+</p>
+
+</footer>
+
+</body>
+</html>
